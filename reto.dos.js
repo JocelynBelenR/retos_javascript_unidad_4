@@ -16,10 +16,11 @@ console.log(output); // --> 3
 Nota, me dan una condicion o respuesta cuando la longitud del array sea 0 */
 
 function getNthElement(array, n) { //(arreglo , entero)
-    if (array.length === 0); { //if para mi condicion, si la longitud de array es 0
+    if (array.length === 0) { //if para mi condicion, si la longitud de array es 0
         return undefined; //esto es lo que devuelve
-      }
+    } else {
       return array [n]; // dentro del arreglo me retorna el entero
+    }  
   }
   
   module.exports = getNthElement;
